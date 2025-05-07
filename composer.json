@@ -28,7 +28,7 @@
    "extra":{
       "patches":{
          "drupal/core": {
-           "Expose Layout Builder data to REST and JSON:API": "https://www.drupal.org/files/issues/2024-06-21/2942975-262-reroll.patch",
+           "Expose Layout Builder data to REST and JSON:API": "https://www.drupal.org/files/issues/2025-02-25/2942975-274.patch",
            "ImageItem should have an derivatives computed property, to expose all image style URLs": "https://www.drupal.org/files/issues/2023-04-10/2825812-248.patch"
           },
          "drupal/jsonapi_extras":{
