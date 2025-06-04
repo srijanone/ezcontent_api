@@ -57,6 +57,7 @@ class AccessUnpublishedToken extends FilterPluginBase {
     if (\Drupal::request()->query->has($tokenKey)) {
       $storage = \Drupal::entityTypeManager()->getStorage('access_token');
       $object = $storage->getQuery()
+        ->accessCheck(FALSE)
         ->condition('value', \Drupal::request()->get($tokenKey))
         ->execute();
       if ($object) {

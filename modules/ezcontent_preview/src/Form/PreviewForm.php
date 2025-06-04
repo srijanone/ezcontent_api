@@ -125,6 +125,7 @@ class PreviewForm extends EntityForm {
   public function exist($id) {
     $entity = $this->entityTypeManager->getStorage('ezcontent_preview')->getQuery()
       ->condition('id', $id)
+      ->accessCheck(FALSE)
       ->execute();
     return (bool) $entity;
   }

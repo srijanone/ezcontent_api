@@ -164,7 +164,7 @@ class Utils {
     $entities = $this->entityTypeManager->getStorage('ezcontent_preview');
     $query = $entities->getQuery();
     $query->sort('weight', 'ASC');
-    $ids = $query->execute();
+    $ids = $query->accessCheck(FALSE)->execute();
     $getDecoupledRoutes = $entities->loadMultiple($ids);
     return $getDecoupledRoutes;
   }
