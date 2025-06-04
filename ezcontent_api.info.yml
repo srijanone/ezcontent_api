@@ -2,7 +2,7 @@ name: EZContent API
 type: module
 description: 'Improves Drupal core JSONAPI experience.'
 package: EZContent API
-core_version_requirement: ^8.8 || ^9 || ^10
+core_version_requirement: ^10.2 || ^11
 dependencies:
   - decoupled_router:decoupled_router
   - jsonapi_boost:jsonapi_boost
@@ -11,4 +11,3 @@ dependencies:
   - openapi_jsonapi:openapi_jsonapi
   - openapi_ui_redoc:openapi_ui_redoc
   - simple_oauth:simple_oauth
-
