@@ -20,7 +20,7 @@
       "drupal/jsonapi_hypermedia":"^1.9",
       "drupal/jsonapi_extras":"^3.23",
       "drupal/jsonapi_boost":"^2.0",
-      "drupal/jsonapi_role_access":"^1.1",
+      "drupal/jsonapi_role_access":"^2.1",
       "drupal/jsonapi_views":"^1.1",
       "drupal/openapi":"^2.1",
       "drupal/openapi_ui":"^1.0@RC",
